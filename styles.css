@@ -63,3 +63,35 @@ button{
     border-radius: 0 5px 5px 0; 
     cursor: pointer;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 10px 20px;             
+    background-color: #af8ed5;      
+    border-top: 1px solid #ccc;     
+}
+
+footer div {
+    flex: 1;                        
+}
+
+footer div p {
+    margin: 0;                      
+    font-size: 16px;                
+    color: #fff;                   
+}
+
+.e {
+    display: flex;
+}
+
+.d {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+}
