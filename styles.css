@@ -64,6 +64,43 @@ button{
     cursor: pointer;
 }
 
+.container{
+    display: flex;
+    margin: auto;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+}
+
+.card {
+    background-color: #d1bbeb;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.card h2{
+    margin-top: 0;
+    color: #54008d;
+}
+
+.card p {
+    color: #777777;
+}
+
+.card ul {
+    padding-left: 20px;
+    color: #444;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -72,7 +109,8 @@ footer {
     align-items: center;            
     padding: 10px 20px;             
     background-color: #af8ed5;      
-    border-top: 1px solid #ccc;     
+    border-top: 1px solid #ccc;   
+    height: 60px;  
 }
 
 footer div {
