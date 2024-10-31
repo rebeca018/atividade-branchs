@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #8faad5;
+    color: #fff;
+    height: 70px;
+}
+/*
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+*/
+
+.logo img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.pesquisa input {
+    padding: 10px 15px; 
+    font-size: 16px; 
+    border: 1px solid #8faad5; 
+    border-radius: 5px 0 0 5px; 
+    outline: none; 
+}
+
+button{
+    padding: 10px 15px; 
+    background-color: #af8ed5; 
+    border: none; 
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer;
+}
