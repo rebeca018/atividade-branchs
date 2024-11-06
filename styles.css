@@ -56,7 +56,7 @@ img {
     outline: none; 
 }
 
-button{
+.button{
     padding: 10px 15px; 
     background-color: #af8ed5; 
     border: none; 
@@ -132,4 +132,13 @@ footer div p {
     flex-direction: row;
     align-items:center;
     justify-content: flex-end;
+}
+
+.button-card{
+    border: 5px;
+    color: #fff;
+}
+
+.details {
+    display: none; 
 }
