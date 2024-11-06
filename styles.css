@@ -82,7 +82,10 @@ button{
     max-width: 400px;
     margin: 20px;
 }
+.card:hover {
+    background-color: #e0e0e0;
 
+}
 .card h2{
     margin-top: 0;
     color: #54008d;
