@@ -83,8 +83,9 @@ button{
     margin: 20px;
 }
 .card:hover {
-    background-color: #e0e0e0;
-
+    background-color: #A4B5E0;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    color: #d1bbeb;
 }
 .card h2{
     margin-top: 0;
